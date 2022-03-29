@@ -39,9 +39,6 @@ function App() {
     handleChange={handleChange}
     />
    </div>
-   <div>
-     
-   </div>
    </>
   );
 }
