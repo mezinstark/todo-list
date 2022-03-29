@@ -1,0 +1,79 @@
+.task-container{
+    width: 70%;
+    background-color: #42C2FF;
+    color: #EFFFFD;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-bottom: 5px;
+    padding-top: 20px;
+    animation-name: activeAnimatePre;
+    animation-duration: 1s;
+    
+}
+@keyframes activeAnimatePre{
+    0%{
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+.task-container-chkd{
+    width: 70%;
+    background-color: #ff498f;
+    color: #EFFFFD;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-bottom: 5px;
+    animation-name: activeAnimate;
+    animation-duration: 1s;
+    
+    
+}
+@keyframes activeAnimate{
+    0%{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@media only screen and (max-width:425px){
+    .task-container{
+        width:90%;
+    }
+    .task-container-chkd{
+        width:90%;
+    }
+   }
+
+.task-{
+    display: none;
+}
+.task-c{
+    margin-top: 0;
+    font-size: 0.8em;
+    margin-bottom: 0px;
+    width:max-content;
+    background-color: #42ffb0;
+    animation-name: activeAnimate;
+    animation-duration: 0.9s;
+    padding-left:3px;
+    padding-right: 10px;
+    padding-top:2px;
+    border-top-right-radius: 10px;
+    
+}
+ul{
+    padding-left: 5px;
+    margin-top: 0;
+}
+.box-chkd{
+    color: #ff498f;
+}
+
